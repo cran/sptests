@@ -8,13 +8,15 @@ between the data and the lag. If zero policy is TRUE, such observations
 are also marked if they occur.
 }
 \usage{
-moran.plot(x, listw, zero.policy=FALSE, labels=NULL, ...)
+moran.plot(x, listw, zero.policy=FALSE, labels=NULL, xlab=NULL, ylab=NULL, ...)
 }
 \arguments{
   \item{x}{a numeric vector the same length as the neighbours list in listw}
   \item{listw}{a \code{listw} object created for example by \code{nb2listw}}
   \item{zero.policy}{if TRUE assign zero to the lagged value of zones without neighbours, if FALSE assign NA}
-  \item{labels}{character labels for points with high influence measures}
+  \item{labels}{character labels for points with high influence measures, if set to FALSE, no labels are plotted for points with large influence}
+  \item{xlab}{label for x axis}
+  \item{ylab}{label for x axis}
   \item{\dots}{further graphical parameters as in \code{par(..)}}
 }
 

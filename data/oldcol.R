@@ -1,1 +1,0 @@
-load("COL-book.rda")
