@@ -1,0 +1,14 @@
+oldcol                   Columbus OH spatial analysis data set - old
+                         numbering
+geary                    Compute Geary's C
+geary.mc                 Permutation test for Geary's C statistic
+geary.test               Geary's C test for spatial autocorrelation
+joincount                Count joins between same colours
+joincount.mc             Permutation test for same colour join count
+                         statistics
+joincount.test           BB join count statistic for k-coloured factors
+lag.listw                Spatial lag of a numeric vector
+moran                    Compute Moran's I
+moran.mc                 Permutation test for Moran's I statistic
+moran.test               Moran's I test for spatial autocorrelation
+spweights.constants      Provides constants for spatial weights matrices
