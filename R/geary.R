@@ -44,7 +44,7 @@ geary.test <- function(x, listw, randomisation=TRUE, zero.policy=FALSE) {
 		VC <- ((2*wc$S1 + wc$S2)*wc$n1 - 4*S02) / (2*(n + 1)*S02)
 	}
 	ZC <- (C - EC) / sqrt(VC)
-	PrC <- (1-pnorm(abs(ZC)))
+	PrC <- 2*(1-pnorm(abs(ZC)))
 	res <- matrix(0, nrow=1, ncol=5)
 	rownames(res) <- deparse(substitute(x))
 	colnames(res) <- c("Geary C statistic", "Expectation", "Variance",

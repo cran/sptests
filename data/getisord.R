@@ -1,0 +1,1 @@
+load("getisord.rda")

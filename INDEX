@@ -1,14 +1,21 @@
 oldcol                   Columbus OH spatial analysis data set - old
                          numbering
+afcon                    Spatial patterns of conflict in Africa 1966-78
 geary                    Compute Geary's C
 geary.mc                 Permutation test for Geary's C statistic
 geary.test               Geary's C test for spatial autocorrelation
+getisord                 Getis-Ord remote sensing example data
 joincount                Count joins between same colours
 joincount.mc             Permutation test for same colour join count
                          statistics
 joincount.test           BB join count statistic for k-coloured factors
 lag.listw                Spatial lag of a numeric vector
+lm.LMtests               Lagrange Multiplier diagnostics for spatial
+                         dependence in linear models
+localG                   G and Gstar local spatial statistics
+localmoran               Local Moran's I statistic
 moran                    Compute Moran's I
 moran.mc                 Permutation test for Moran's I statistic
+moran.plot               Moran scatterplot
 moran.test               Moran's I test for spatial autocorrelation
 spweights.constants      Provides constants for spatial weights matrices

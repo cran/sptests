@@ -45,7 +45,7 @@ joincount.test <- function(fx, listw) {
 	res[,2] <- Ejc
 	res[,3] <- Vjc
 	res[,4] <- (res[,1] - res[,2]) / sqrt(res[,3])
-	res[,5] <- 1-pnorm(abs(res[,4]))
+	res[,5] <- 2*(1-pnorm(abs(res[,4])))
 	thiscall <- match.call()
 	attr(res, "call") <- thiscall
 	neighbours.attrs <- names(attributes(listw$neighbours))

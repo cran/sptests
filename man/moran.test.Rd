@@ -25,7 +25,7 @@ A coefficient matrix with values:
 \note{Var(I) is taken from Goodchild's CATMOG 47,
 see also Upton & Fingleton (1985) p. 171; it agrees with SpaceStat,
 see Tutorial workbook Chapter 22; VI is as given by Cliff and Ord minus the
-square of EI. Probability values one-tailed, as the hypothesis most often used is no autocorrelation against positive autocorrelation.}
+square of EI.}
 
 \references{Cliff, A. D., Ord, J. K. 1981 Spatial processes, Pion, p. 21.}
 \author{Roger Bivand \email{Roger.Bivand@nhh.no}}

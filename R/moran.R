@@ -32,7 +32,7 @@ moran.test <- function(x, listw, randomisation=TRUE, zero.policy=FALSE) {
 		VI <- VI - EI^2
 	}
 	ZI <- (I - EI) / sqrt(VI)
-	PrI <- 1-pnorm(abs(ZI))
+	PrI <- 2*(1-pnorm(abs(ZI)))
 	res <- matrix(0, nrow=1, ncol=5)
 	rownames(res) <- deparse(substitute(x))
 	colnames(res) <- c("Moran's I statistic", "Expectation", "Variance",
