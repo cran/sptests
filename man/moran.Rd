@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{moran}
 \alias{moran}
 \title{Compute Moran's I}
@@ -5,7 +6,7 @@
   A simple function to compute Moran's I, called by \code{moran.test} and \code{moran.mc};
 \deqn{I = \frac{n}{\sum_{i=1}^{n}\sum_{j=1}^{n}w_{ij}}
 \frac{\sum_{i=1}^{n}\sum_{j=1}^{n}w_{ij}(x_i-\bar{x})(x_j-\bar{x})}{\sum_{i=1}^{n}(x_i - \bar{x})^2}
-}
+}{I = (n sum_i sum_j w_ij (x_i - xbar) (x_j - xbar)) / (S0 sum_i (x_i - xbar)^2)}
 }
 \usage{
 moran(x, listw, n, S0, zero.policy=FALSE)

@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{lag.listw}
 \alias{lag.listw}
 \title{Spatial lag of a numeric vector}

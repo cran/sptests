@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{geary.test}
 \alias{geary.test}
 \title{Geary's C test for spatial autocorrelation}

@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{lm.LMtests}
 \alias{lm.LMtests}
 
@@ -20,12 +21,12 @@ The two types of dependence are for spatial lag $\rho$ and spatial error $\lambd
 
 \deqn{
 \mathbf{y} = \mathbf{X \beta} + \rho \mathbf{W_{(1)} y} + \mathbf{u},
-}
+}{y = X beta + rho W1 y + u}
 \deqn{
 \mathbf{u} = \lambda \mathbf{W_{(2)} u} + \mathbf{e}
-}
+}{u = lambda W2 u + e}
 
-where $\mathbf{e}$ is a well-behaved, uncorrelated error term. Tests for a missing spatially lagged dependent variable test that $\rho = 0$, tests for spatial autocorrelation of the error $\mathbf{u}$ test whether $\lambda = 0$. $\mathbf{W}$ is a spatial weights matrix; for the tests used here they are identical.
+where \eqn{\mathbf{e}}{e} is a well-behaved, uncorrelated error term. Tests for a missing spatially lagged dependent variable test that \eqn{\rho = 0}{rho = 0}, tests for spatial autocorrelation of the error \eqn{\mathbf{u}}{u} test whether \eqn{\lambda = 0}{lambda = 0}. \eqn{\mathbf{W}}{W} is a spatial weights matrix; for the tests used here they are identical.
 }
 
 \value{

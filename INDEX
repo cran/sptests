@@ -12,6 +12,8 @@ joincount.test           BB join count statistic for k-coloured factors
 lag.listw                Spatial lag of a numeric vector
 lm.LMtests               Lagrange Multiplier diagnostics for spatial
                          dependence in linear models
+lm.morantest             Moran's I test for residual spatial
+                         autocorrelation
 localG                   G and Gstar local spatial statistics
 localmoran               Local Moran's I statistic
 moran                    Compute Moran's I

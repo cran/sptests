@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{moran.test}
 \alias{moran.test}
 \title{Moran's I test for spatial autocorrelation}

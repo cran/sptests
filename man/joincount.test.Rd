@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{joincount.test}
 \alias{joincount.test}
 \title{BB join count statistic for k-coloured factors}

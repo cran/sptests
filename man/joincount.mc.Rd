@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{joincount.mc}
 \alias{joincount.mc}
 

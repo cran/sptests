@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{joincount}
 \alias{joincount}
 \title{Count joins between same colours}

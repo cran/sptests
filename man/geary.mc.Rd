@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{geary.mc}
 \alias{geary.mc}
 \title{Permutation test for Geary's C statistic}

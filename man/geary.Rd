@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{geary}
 \alias{geary}
 \title{Compute Geary's C}

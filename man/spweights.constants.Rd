@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{spweights.constants}
 \alias{spweights.constants}
 \alias{Szero}

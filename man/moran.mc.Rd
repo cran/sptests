@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{moran.mc}
 \alias{moran.mc}
 \title{Permutation test for Moran's I statistic}

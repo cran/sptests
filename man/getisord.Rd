@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{getisord}
 \alias{getisord}
 \alias{x}

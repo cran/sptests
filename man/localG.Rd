@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{localG}
 \alias{localG}
 \title{G and Gstar local spatial statistics}
@@ -72,9 +73,9 @@ text(xyz$x, xyz$y, round(G30, digits=1), cex=0.7)
 polygon(c(195,225,225,195), c(195,195,225,225), lwd=2)
 title(main=expression(paste("Values of the ", G[i], " statistic")))
 G30s <- localG(xyz$val, nb2listw(include.self(nb30), style="B"))
-cat("value according to Getis and Ord's eq. 14.2, p. 263 (1976)\n")
+cat("value according to Getis and Ord's eq. 14.2, p. 263 (1996)\n")
 G30s[length(xyz$val)-136]
-cat(paste("value given by Getis and Ord (1976), p. 267",
+cat(paste("value given by Getis and Ord (1996), p. 267",
   "(division by n-1 rather than n \n in variance)\n"))
 G30s[length(xyz$val)-136] *
   (sqrt(sum(scale(xyz$val, scale=FALSE)^2)/length(xyz$val)) /

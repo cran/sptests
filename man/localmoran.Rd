@@ -1,3 +1,4 @@
+% Copyright 2001 by Roger S. Bivand
 \name{localmoran}
 \alias{localmoran}
 \title{Local Moran's I statistic}
